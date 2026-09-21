@@ -2,8 +2,8 @@
 int main()
 {
   int a=10;
-for(int i=31;i<=0;i++)
+for(int i=31;i>=0;i--)
 {
-  printf("%d",(unsigned)(a>>i)&1);
+   printf("%d ", ( unsigned )(a>>i)&1);
 }
 }
