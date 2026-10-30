@@ -91,7 +91,7 @@ int main()
     int count2=0;
     if(valid_check(num)==0)
     {
-        printf("Enter at least 2 distinct number\n");
+        printf("Enter the distint number\n");
         return 0;
 
     }
